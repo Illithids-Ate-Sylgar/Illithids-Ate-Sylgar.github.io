@@ -32,7 +32,7 @@
     </div>
     <div class="clickToGain">
         <div class="soulThings">    
-            <button onclick="soulsClick(1)" >Find Foe</button>
+            <button onclick="soulsClick(1)">Find Foe</button>
             <br />
             Souls: <span id="souls">0</span>
         </div>
@@ -44,12 +44,12 @@
     </div>
     <div class="buyables">  
         <div class="followerThings">
-          <button onclick="buyFollower()">Inlist</button>
-          <br />
+          <button onclick="buyFollower()" class="tooltip">Inlist</button>
+          <span class="tooltiptext">
           Followers: <span id="followers">0</span>
           <br />
           Follower Cost: <span id="followerCost">10</span> souls
-          <br />
+		</span>
         </div>
         <div class="campThings">
           <button onclick="buyCamps()">Camp</button>
